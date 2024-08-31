@@ -1,0 +1,45 @@
+{
+  "Configurations": [
+    {
+      "BaseFolderPath": "C:\\Users\\walte\\Downloads",
+      "Groups": [
+        {
+          "FolderName": "rar",
+          "Extensions": [ "rar", "zip" ]
+        },
+        {
+          "GolderName": "images",
+          "Extensions": [ "png", "jpg", "jpeg" ]
+        },
+        {
+          "FolderName": "executables",
+          "Extensions": [ "exe", "msi" ]
+        },
+        {
+          "FolderName": "documents",
+          "Extensions": [ "docx", "pdf" ]
+        }
+      ],
+      "SubFolders": [
+        {
+          "FileNameContains": "resumen de tarjeta",
+          "CamelCaseSensitive": false,
+          "Extensions": [ "docx", "pdf" ],
+          "FolderName": "Resumen de tarjeta"
+        },
+        {
+          "FileNameContains": "cv",
+          "CamelCaseSensitive": false,
+          "Extensions": [ "docx", "pdf" ],
+          "FolderName": "CV"
+        },
+        {
+          "FileNameContains": "parcial",
+          "CamelCaseSensitive": false,
+          "Extensions": [ "docx", "pdf" ],
+          "FolderName": "Parciales"
+        }
+      ]
+    }
+  ]
+}
